@@ -20,8 +20,8 @@ st.write('Your schduled Date is :', d)
 
 
 
-df1= pd.read_csv("C:/Users/karth/customer_details.csv")  # read a CSV file inside the 'data" folder next to 'app.py'
-df2= pd.read_csv("C:/Users/karth/merchant_orders.csv")  # read a CSV file inside the 'data" folder next to 'app.py'
+df1= pd.read_csv("customer_details.csv")  # read a CSV file inside the 'data" folder next to 'app.py'
+df2= pd.read_csv("merchant_orders.csv")  # read a CSV file inside the 'data" folder next to 'app.py'
 
 #tab 1 customer analysis
 #customers of other merchants
